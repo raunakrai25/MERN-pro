@@ -1,0 +1,24 @@
+table, td{
+    border: 2px solid rgb(7, 0, 37);
+}
+table{
+    border-collapse: collapse;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.space{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+input{
+    margin-left: 80px;
+}

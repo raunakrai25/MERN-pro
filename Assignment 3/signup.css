@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(39, 1, 1);
+    color: white;
+}
+
+.head {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form{
+    width: 500px;
+    height: 470px;
+    background-color: rgba(222, 184, 135, 0.808);
+    margin-top: 30px;
+    margin-left: 400px;
+    border: yellow solid 5px;
+}
+
+#name1 {
+    margin-top: 20px;
+    margin-left: 130px;
+    height: 30px;
+    background-color: rgb(39, 1, 1);
+    color: white;
+    border: yellow solid 2px;
+    font-size: 20px;
+}
+
+#name2 {
+    margin-top: 20px;
+    margin-left: 130px;
+    height: 30px;
+    background-color: rgb(39, 1, 1);
+    color: white;
+    border: yellow solid 2px;
+    font-size: 20px;
+}
+
+#mail {
+    margin-top: 20px;
+    margin-left: 130px;
+    height: 30px;
+    background-color: rgb(39, 1, 1);
+    color: white;
+    border: yellow solid 2px;
+    font-size: 20px;
+}
+
+#pass1 {
+    margin-top: 20px;
+    margin-left: 130px;
+    height: 30px;
+    background-color: rgb(39, 1, 1);
+    color: white;
+    border: yellow solid 2px;
+    font-size: 20px;
+}
+
+#pass2 {
+    margin-top: 20px;
+    margin-left: 130px;
+    height: 30px;
+    background-color: rgb(39, 1, 1);
+    color: white;
+    border: yellow solid 2px;
+    font-size: 20px;
+}
+
+.radio{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: black;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 190px;
+    background-color:blue;
+    color: white;
+    border: rgb(1, 1, 46) solid 2px;
+}
+
+.nxt{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+}
