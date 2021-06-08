@@ -1,0 +1,58 @@
+<!Doctype>
+<html>
+    <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+    <div class="heading"><h1>THE CALCULATOR</h1></div>
+    <div class="class1">
+        <div class="class2">
+            <div id="sub"></div>
+            <div id="result"></div>
+        </div>
+        <div class="c"><button onclick="myFnC()">C</button></div>
+        <div class="table1">
+            <table>
+                <tr>
+                    <td><input type="button" onclick="myfn7()" value="7" ></td>
+                    <td><input type="button" onclick="myfn8()" value="8" ></td>
+                    <td><input type="button" onclick="myfn9()" value="9" ></td>
+                    <td><input type="button" onclick="division()" value="/" class="col" ></td>
+                </tr>
+            </table>
+           
+            <table>
+                <tr>
+                    <td><input type="button" onclick="myfn4()" value="4" ></td>
+                    <td><input type="button" onclick="myfn5()" value="5" ></td>
+                    <td><input type="button" onclick="myfn6()" value="6" ></td>
+                    <td><input type="button"onclick="multiplication()" value="x" class="col" ></td>
+                </tr>
+            </table>
+             
+            <table>
+                <tr>
+                    <td><input type="button" onclick="myfn1()" value="1" ></td>
+                    <td><input type="button" onclick="myfn2()" value="2"></td>
+                    <td><input type="button" onclick="myfn3()" value="3" ></td>
+                    <td><input type="button" onclick="subtraction()" value="-" class="col"></td>
+                </tr>
+            </table>
+             
+            <table>
+                <tr>
+                    <td><input type="button" onclick="myfn0()" value="0" ></td>
+                    <td><input type="button" onclick="myfnp()" value="."></td>
+                    <td><input type="button" onclick="equals()" value="=" class="col" ></td>
+                    <td><input type="button" onclick="addition()" value="+" class="col"></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div> 
+    <script src="script.js"></script>
+    </body>
+</html>

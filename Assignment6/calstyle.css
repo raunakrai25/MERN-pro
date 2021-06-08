@@ -1,0 +1,99 @@
+
+*{
+    color: #fff;
+}
+.heading {
+    color: black;
+    font-size: 25px;
+    
+    
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.class1 {
+
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 450px;
+    background-color: #000;
+    border: 20px solid #535050;
+    border-radius: 15px;
+}
+
+.class2 {
+    width: 350px;
+    height: 120px;
+    background-color: #f2f0f5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.c {
+    margin-left: 80%;
+    padding-top: 20px;    
+}
+
+button {
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+
+}
+
+table td {
+
+    width: 75px;
+    height: 55px;
+    
+}
+input {
+    width: 75px;
+    height: 55px;
+    background-color: #ff8207;
+    border: 1px solid #ff8207;
+    font-size: 30px;
+    cursor: pointer;
+}
+table {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.d {
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+.col {
+    background-color: black;
+    border: 3px solid black;
+}
+
+#sub {
+    font-size: 20px;
+    padding-top: 20px;
+    color: gray;
+    padding-left: 10px;
+
+}
+
+#result {
+    text-align: end;
+    font-size: 30px;
+    color: black;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .class1{
+        margin-top: 15%;
+        
+    }
+}
